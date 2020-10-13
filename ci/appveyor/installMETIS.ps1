@@ -11,7 +11,7 @@ function InstallMETIS() {
     cd metis-5.1.0eric
     #md build
     cd build
-    $env:Path += ";F:/cmake/cmake/bin/"
+    $env:Path += ";C:/Program Files/CMake/bin/"
     cmake --version
     cmake -G "Visual Studio 14 2015 Win64" -SC:/projects/OneFLOWtest/lib/metis-5.1.0eric -BC:/projects/OneFLOWtest/lib/metis-5.1.0eric/build/ `
     -DMETIS_ENABLE_64BIT="ON" -DCMAKE_INSTALL_PREFIX="C:/Program Files/metis"

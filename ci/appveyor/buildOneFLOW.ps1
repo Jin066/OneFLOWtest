@@ -3,7 +3,7 @@ function BuildOneFLOW() {
     # Build OneFLOW with cmake
     md build
     cd build
-    $env:Path += ";F:/cmake/cmake/bin/"
+    $env:Path += ";C:/Program Files/CMake/bin/"
     cmake --version
     Write-Host "cmake --help..."
     cmake --help
